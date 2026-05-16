@@ -1,0 +1,29 @@
+name: lanka_xplore
+description: "Smart Tourist Management System"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  
+  # Ippo irukkira latest versions (Intha numbers-ai sariyaa kudunga)
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  firebase_storage: ^11.5.6
+  image_picker: ^1.0.4
+  firebase_messaging: ^14.9.0        
+  flutter_local_notifications: ^17.0.0  
+  connectivity_plus: ^7.1.1
+  intl: ^0.20.2
+  shared_preferences: ^2.2.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
